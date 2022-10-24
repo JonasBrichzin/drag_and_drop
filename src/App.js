@@ -1,15 +1,13 @@
+import DragAndDrop from "./gruppenraum/DragAndDrop";
 import React from 'react';
-import ReactDOM from 'react-dom';
-import DragAndDrop from './Pages/test/DragAndDrop';
+import Gruppeneinteilung from "./gruppenraum/DragAndDrop";
 
-ReactDOM.render(<DragAndDrop />, document.getElementById("root"));
 
 function App() {
   return (
     <div className="App">
-      <DragAndDrop />
+      <Gruppeneinteilung />
     </div>
   );
 }
-
 export default App;
